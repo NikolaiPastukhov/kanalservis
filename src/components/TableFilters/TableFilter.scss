@@ -1,0 +1,25 @@
+.TableFilter {
+    display: flex;
+    align-items: center ;
+    gap: 0 10px;
+    & button, select {
+        height: 30px;
+        outline: none;
+    }
+    & input {
+        outline: none;
+        height: 24px;
+    }
+    & button {
+        cursor: pointer;
+        font-size: 14px;
+        background-color: rgba(40, 210, 253, 0.63);
+        border: none {
+            radius: 5px;
+        }
+        &:hover {
+            background-color: rgba(40, 210, 253, 0.527)
+        }
+    }
+   
+}

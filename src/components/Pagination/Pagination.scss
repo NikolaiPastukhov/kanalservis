@@ -1,0 +1,22 @@
+.Paginate {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 0 20px;
+    &__button_active {
+        background-color: rgba(40, 210, 253, 0.63);
+    }
+    & button {
+        cursor: pointer;
+        height: 25px;
+        width: 25px;
+        border: none {
+          radius: 5px;
+        }
+        &:hover {
+            background-color: rgba(40, 210, 253, 0.63);
+        }
+    
+    }
+}
+

@@ -1,0 +1,27 @@
+.Table-wrapper {
+    padding: 0;
+    margin-top: 5%;
+}
+.Table {
+    border: 1px solid black;
+    width: 100%;
+    & thead {
+        border: 1px solid black;
+        & th {
+            height: 30px;
+            background-color: rgba(40, 210, 253, 0.63);
+        }
+    }
+    & tbody {
+        text-align: center;
+        & td {
+            background-color:rgb(240, 240, 240);
+
+            height: 25px;
+        }
+    }
+}
+.Table__th_hover:hover {
+    cursor: pointer;
+    background-color: rgba(40, 210, 253, 0.527)
+}
